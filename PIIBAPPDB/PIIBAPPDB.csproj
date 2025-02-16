@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{66972B81-440D-47B9-A1B7-8E5E5B818FDC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PIIBAPPDB</RootNamespace>
+    <AssemblyName>PIIBAPPDB</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="VentanaRegistroCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaRegistroCompras.Designer.cs">
+      <DependentUpon>VentanaRegistroCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaConfirmarAddProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaConfirmarAddProd.Designer.cs">
+      <DependentUpon>VentanaConfirmarAddProd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaConfirmarBorrProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaConfirmarBorrProd.Designer.cs">
+      <DependentUpon>VentanaConfirmarBorrProd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaConfirmarBorrProv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaConfirmarBorrProv.Designer.cs">
+      <DependentUpon>VentanaConfirmarBorrProv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaCofirmarModProv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaCofirmarModProv.Designer.cs">
+      <DependentUpon>VentanaCofirmarModProv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaConfirmarBorrEmple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaConfirmarBorrEmple.Designer.cs">
+      <DependentUpon>VentanaConfirmarBorrEmple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaConfirmarAddEmple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaConfirmarAddEmple.Designer.cs">
+      <DependentUpon>VentanaConfirmarAddEmple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaConfirmarBorrCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaConfirmarBorrCliente.Designer.cs">
+      <DependentUpon>VentanaConfirmarBorrCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaConfirmarCierreCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaConfirmarCierreCaja.Designer.cs">
+      <DependentUpon>VentanaConfirmarCierreCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaConfirmarCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaConfirmarCompra.Designer.cs">
+      <DependentUpon>VentanaConfirmarCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaConfirmarModCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaConfirmarModCliente.Designer.cs">
+      <DependentUpon>VentanaConfirmarModCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaConfirmarAddCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaConfirmarAddCliente.Designer.cs">
+      <DependentUpon>VentanaConfirmarAddCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaConfirmarModEmple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaConfirmarModEmple.Designer.cs">
+      <DependentUpon>VentanaConfirmarModEmple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaConfirmarModProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaConfirmarModProd.Designer.cs">
+      <DependentUpon>VentanaConfirmarModProd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaConfirmarVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaConfirmarVenta.Designer.cs">
+      <DependentUpon>VentanaConfirmarVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaConnfirmarAddProv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaConnfirmarAddProv.Designer.cs">
+      <DependentUpon>VentanaConnfirmarAddProv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaIniciarSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaIniciarSesion.Designer.cs">
+      <DependentUpon>VentanaIniciarSesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaRegistroVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaRegistroVentas.Designer.cs">
+      <DependentUpon>VentanaRegistroVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaSedes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaSedes.Designer.cs">
+      <DependentUpon>VentanaSedes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaRegistroCajas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaRegistroCajas.Designer.cs">
+      <DependentUpon>VentanaRegistroCajas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaSolicitudes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaSolicitudes.Designer.cs">
+      <DependentUpon>VentanaSolicitudes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaCaja.Designer.cs">
+      <DependentUpon>VentanaCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaEmpleados.Designer.cs">
+      <DependentUpon>VentanaEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaCompras.Designer.cs">
+      <DependentUpon>VentanaCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaProveedores.Designer.cs">
+      <DependentUpon>VentanaProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaCierreCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaCierreCaja.Designer.cs">
+      <DependentUpon>VentanaCierreCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaVentas.Designer.cs">
+      <DependentUpon>VentanaVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaPrincipal.Designer.cs">
+      <DependentUpon>VentanaPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaProductos.Designer.cs">
+      <DependentUpon>VentanaProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaClientes.Designer.cs">
+      <DependentUpon>VentanaClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaBotones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaBotones.Designer.cs">
+      <DependentUpon>VentanaBotones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="VentanaRegistroCompras.resx">
+      <DependentUpon>VentanaRegistroCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaConfirmarAddProd.resx">
+      <DependentUpon>VentanaConfirmarAddProd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaConfirmarBorrProd.resx">
+      <DependentUpon>VentanaConfirmarBorrProd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaConfirmarBorrProv.resx">
+      <DependentUpon>VentanaConfirmarBorrProv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaCofirmarModProv.resx">
+      <DependentUpon>VentanaCofirmarModProv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaConfirmarBorrEmple.resx">
+      <DependentUpon>VentanaConfirmarBorrEmple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaConfirmarAddEmple.resx">
+      <DependentUpon>VentanaConfirmarAddEmple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaConfirmarBorrCliente.resx">
+      <DependentUpon>VentanaConfirmarBorrCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaConfirmarCierreCaja.resx">
+      <DependentUpon>VentanaConfirmarCierreCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaConfirmarCompra.resx">
+      <DependentUpon>VentanaConfirmarCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaConfirmarModCliente.resx">
+      <DependentUpon>VentanaConfirmarModCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaConfirmarAddCliente.resx">
+      <DependentUpon>VentanaConfirmarAddCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaConfirmarModEmple.resx">
+      <DependentUpon>VentanaConfirmarModEmple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaConfirmarModProd.resx">
+      <DependentUpon>VentanaConfirmarModProd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaConfirmarVenta.resx">
+      <DependentUpon>VentanaConfirmarVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaConnfirmarAddProv.resx">
+      <DependentUpon>VentanaConnfirmarAddProv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaIniciarSesion.resx">
+      <DependentUpon>VentanaIniciarSesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaRegistroVentas.resx">
+      <DependentUpon>VentanaRegistroVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaSedes.resx">
+      <DependentUpon>VentanaSedes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaRegistroCajas.resx">
+      <DependentUpon>VentanaRegistroCajas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaSolicitudes.resx">
+      <DependentUpon>VentanaSolicitudes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaCaja.resx">
+      <DependentUpon>VentanaCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaEmpleados.resx">
+      <DependentUpon>VentanaEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaCompras.resx">
+      <DependentUpon>VentanaCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaProveedores.resx">
+      <DependentUpon>VentanaProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaVentas.resx">
+      <DependentUpon>VentanaVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaPrincipal.resx">
+      <DependentUpon>VentanaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaProductos.resx">
+      <DependentUpon>VentanaProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaClientes.resx">
+      <DependentUpon>VentanaClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaBotones.resx">
+      <DependentUpon>VentanaBotones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="VentanaCierreCaja.resx">
+      <DependentUpon>VentanaCierreCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
