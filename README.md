@@ -62,3 +62,23 @@ string connectionString = "Server=TU_SERVIDOR;Database=PapeleriaDB;User Id=USUAR
 ## 📩 Soporte
 
 Si deseas más información sobre el funcionamiento del sistema, no dudes en comunicarte.
+
+## 📎 Anexos
+<img width="462" height="311" alt="image" src="https://github.com/user-attachments/assets/603ac5d9-7681-41ae-a15f-9c62a8b66f9f" /><br/>
+<img width="536" height="594" alt="image" src="https://github.com/user-attachments/assets/bc67986b-ed52-4f38-ab04-20499c49812d" />
+<img width="567" height="304" alt="image" src="https://github.com/user-attachments/assets/130cb62a-0042-4eeb-9b5b-67f0c8b02e12" />
+<img width="567" height="302" alt="image" src="https://github.com/user-attachments/assets/c5128e33-f666-4bd6-9183-19c485d36dd2" />
+<img width="567" height="303" alt="image" src="https://github.com/user-attachments/assets/f3d44cb1-665d-441f-9d22-38f7411e439d" />
+<img width="567" height="303" alt="image" src="https://github.com/user-attachments/assets/5111507b-8f29-4795-ad07-8d0a3d0395c2" />
+<img width="457" height="431" alt="image" src="https://github.com/user-attachments/assets/33b4edfa-e026-4e73-a4d1-6bfdd155ddc5" />
+<img width="567" height="302" alt="image" src="https://github.com/user-attachments/assets/fcdb87dc-dfe1-4cf0-913c-50302b118443" />
+<img width="567" height="293" alt="image" src="https://github.com/user-attachments/assets/0cf99fa9-4869-4214-b766-f471e82b3ba0" />
+
+
+
+
+
+
+
+
+
